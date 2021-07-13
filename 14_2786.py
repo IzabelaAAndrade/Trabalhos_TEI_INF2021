@@ -1,5 +1,5 @@
 # Alunas: Izabela A. Andrade (20192004795), Marcela P. Silvério (20192020028) e Tássyla L. Lima (20192001990)
-# Turma: INF3A
+# Turma: INF3A 
 
 # **************************************************************************************************
 # Descrição do código: O código em questão permite o cálculo do número de lajotas do tipo 1 e 2
