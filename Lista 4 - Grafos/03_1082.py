@@ -82,3 +82,4 @@ for i in range(numero_testes):
     print("Case #{0}:".format(i + 1))
     print("{0} connected components".format(dfs(grafo, numero_vertices, alfabetoInverso)))
     print()
+    
