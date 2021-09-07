@@ -3,10 +3,13 @@
 
 # **********************************************************************************************************
 # O código em questão precisa descobrir se o cordão de LED está totalmente ligado, ou seja, se eu consigo
-# visitar todos os vertices a partir de um. Como podemos observar pelo codigo desenvolvido, nada mais é do
-# que uma aplicacao simples da busca em profundidade em grafo não direcionado. Nós partirmos de um ponto 
-# inicial e precisamos encontrar todos os outros a partir dele. A conferencia é feita pela lista visitados 
-# ao final.
+# visitar todos os vertices a partir de um inicial. Como podemos observar pelo codigo desenvolvido, nada
+# mais é do que uma aplicacao simples da busca em profundidade em grafo não direcionado. Nós partirmos de
+# um ponto inicial e precisamos encontrar todos os outros a partir dele. Para isso, foi utilizada a forma
+# recursivada solucao que consiste em visitar todos os filhos dos filhos do vertice em questão encontrado
+# atraves de um for. Isso gera como resultado, uma lista que, no index correspondente ao vertice, é guardado
+# o valor True ou False, visitado ou não. Nós utilizamos essa lista para conferir se todos os LEDs foram 
+# ligados de forma correta no final.
 # **********************************************************************************************************
 
 def dfs_rec(g, u, visitados):
