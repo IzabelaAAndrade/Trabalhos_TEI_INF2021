@@ -4,8 +4,9 @@
 # **********************************************************************************************************
 # O código em questão precisa descobrir se o cordão de LED está totalmente ligado, ou seja, se eu consigo
 # visitar todos os vertices a partir de um. Como podemos observar pelo codigo desenvolvido, nada mais é do
-# que uma aplicacao simples da busca em profundidade. Nós partirmos de um ponto inicial e precisamos encontrar
-# todos os outros a partir dele. A conferencia é feita pela lista visitados ao final.
+# que uma aplicacao simples da busca em profundidade em grafo não direcionado. Nós partirmos de um ponto 
+# inicial e precisamos encontrar todos os outros a partir dele. A conferencia é feita pela lista visitados 
+# ao final.
 # **********************************************************************************************************
 
 def dfs_rec(g, u, visitados):
@@ -26,6 +27,7 @@ for cont in range(num_arestas):
 
     vertice1, vertice2 = map(int, input().split())
     grafo[vertice1].append(vertice2)
+    grafo[vertice2].append(vertice1)
 
 vertice1 = 1
 
