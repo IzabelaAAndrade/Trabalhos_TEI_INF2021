@@ -15,7 +15,7 @@
 # outra que irá relacionar os vértices visitados. Em seguida, as entradas são lidas e armazenadas no grafo. 
 # Por fim, executamos um dfs para cada vertíce que ainda não foi visitado e incrementamos a variável de 
 # conectados, imprimindo que a promessa foi cumprida caso haja apenas um componente conexo ou a quantidade
-# de estradas faltantes caso tenhamos mais de um componente conexo. 
+# de estradas faltantes caso tenhamos mais de um componente conexo no grafo. 
 # **********************************************************************************************************
 
 def dfs(g, vis, v):
