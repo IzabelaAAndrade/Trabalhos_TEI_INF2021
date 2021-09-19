@@ -12,7 +12,7 @@
 # combinação de todas as duplas de pontos possíveis, cada uma com sua distância entre si. Em seguida 
 # executamos o algoritmo de Prim modificado para que, ao invés de gerar uma lista de custos e outra de 
 # vértices anteriores, apenas pegarmos a distância total para percorrer a árvore geradora mínima. Por fim, 
-# imprimimos essa distância dividida por 100, pois a queremos em metros, não em centímetros.
+# imprimimos essa distância dividida por 100, pois a queremos a resposta em metros, não em centímetros.
 # **********************************************************************************************************
 
 from math import sqrt
